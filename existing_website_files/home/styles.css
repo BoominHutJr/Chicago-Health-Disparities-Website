@@ -1,0 +1,17 @@
+
+/* navigation bar */
+
+nav{
+    height: 100px;
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.nav-bar{
+    position: relative;
+}
+
