@@ -15,3 +15,21 @@ nav{
     position: relative;
 }
 
+.nav__link--button{
+    margin: 0 18px;
+    text-decoration: none;
+    color: rgb(107, 29, 29);
+    font-weight: 700;
+}
+
+.nav__link--button-style{
+    background-color: navajowhite;
+    padding: 6px 17px;
+    border-radius: 80%;
+    border: 2px solid rgb(226, 196, 150);
+
+}
+
+.logoStyling{
+    max-width: 170px;
+}
