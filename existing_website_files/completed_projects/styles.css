@@ -17,7 +17,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid black;
 }
 
 .nav-bar{
@@ -25,18 +24,18 @@ nav{
 }
 
 .nav__link--button{
-    margin: 0 18px;
+    margin: 0 15px;
     text-decoration: none;
-    color: rgb(107, 29, 29);
+    color: aliceblue;
     font-weight: 700;
 }
 
 .nav__link--button-style{
-    background-color: navajowhite;
+    background-color: rgb(18, 45, 134);
     padding: 6px 17px;
-    border-radius: 80%;
-    border: 2px solid rgb(226, 196, 150);
-
+    border-radius: 35px;
+    border: 2px solid rgb(31, 98, 199);
+    font-size: 18px;
 }
 
 .logoStyling{

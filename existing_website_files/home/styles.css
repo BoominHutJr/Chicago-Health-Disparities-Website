@@ -1,7 +1,20 @@
 /* general */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+*{
+    font-family: Merriweather;
+    margin: 0;
+    padding: 0;
+}
 
 h1{
-    margin: 60px auto;
+    color: aliceblue;
+    font-size: 80px;
+}
+
+h2{
+    color: aliceblue;
+    font-size: 30px;
 }
 
 video{
@@ -10,10 +23,46 @@ video{
 }
 
 p{
-    max-width: 1000px; 
+    max-width: 900px; 
     margin-left: auto;
     margin-right: auto; 
+    font-size: 28px;
     text-align: center;
+}
+.p-silver{
+    color: silver;
+}
+.p-black{
+    color: black;
+}
+footer{
+    color: black;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.background-image__test{
+    background-image: linear-gradient(rgb(252, 252, 252),rgb(240, 242, 248)), url("testwhite.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background-image{
+    background-image: linear-gradient(rgb(4, 9, 30,0.7),rgb(4, 9, 30,0.7)), url("skyline.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title{
+    min-width: 400px;
+    min-height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
 }
 /* navigation bar */
 
@@ -24,7 +73,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid black;
 }
 
 .nav-bar{
@@ -32,18 +80,18 @@ nav{
 }
 
 .nav__link--button{
-    margin: 0 18px;
+    margin: 0 15px;
     text-decoration: none;
-    color: rgb(107, 29, 29);
+    color: aliceblue;
     font-weight: 700;
 }
 
 .nav__link--button-style{
-    background-color: navajowhite;
+    background-color: rgb(18, 45, 134);
     padding: 6px 17px;
-    border-radius: 80%;
-    border: 2px solid rgb(226, 196, 150);
-
+    border-radius: 35px;
+    border: 2px solid rgb(31, 98, 199);
+    font-size: 18px;
 }
 
 .logoStyling{
@@ -102,7 +150,7 @@ nav{
 
 /* video */
 .video__background{
-    background-image: url("skyline.jpg");
+    
     background-size: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
