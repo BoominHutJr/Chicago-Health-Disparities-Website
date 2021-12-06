@@ -1,11 +1,102 @@
+/* general */
+h1{
+    margin: 60px auto;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+/* navigation bar */
+
 nav{
     height: 100px;
     width:100%;
-    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(107, 29, 29);
     border-bottom: 2px solid black;
+}
+
+.nav-bar{
+    position: relative;
+}
+
+.nav__link--button{
+    margin: 0 18px;
+    text-decoration: none;
+    color: rgb(107, 29, 29);
+    font-weight: 700;
+}
+
+.nav__link--button-style{
+    background-color: navajowhite;
+    padding: 6px 17px;
+    border-radius: 80%;
+    border: 2px solid rgb(226, 196, 150);
+
+}
+
+.logoStyling{
+    max-width: 170px;
+}
+
+
+/* sidebar */
+      
+.sidenav__background{
+    background-image: url("../leadership\ manual\ cover\ photo.jpg");
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(243, 235, 235);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.main {
+    margin-right: 200px; 
+    padding: 0px 10px;
+}
+
+.wrap__bottom {
+    vertical-align: bottom;
+    border: 1px solid #aaa;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+.wrap__bottom--background-color{
+    background-color: navajowhite;
+    opacity: 0.85;
+}
+.text__shrink{
+    font-size: 80%;
+}
+
+/* video */
+.video__background{
+    background-image: url("skyline.jpg");
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
