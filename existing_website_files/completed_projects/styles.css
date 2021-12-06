@@ -1,13 +1,39 @@
 /* general */
-h1{
-    margin: 60px auto;
-}
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em; /* 16 / 16 = 1 */
+    line-height: 1.25em; /* 20 / 16 = 1.25 */
+    background-color: #c1c8e4;
+    text-align: left;
+  }
+  h1 {
+    font-size: 2em; /* 32/16 = 2 */
+    line-height: 2.5em; /* 40/16 = 2.5em  */
+    background-color: #84ceeb;
+    font-family:"proxima-nova", sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
 
-video{
-    display: block;
-    margin: 0 auto;
-}
+  h2 {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-family:"proxima-nova", sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
 
+  p {
+    font-size: 1em; /* 16 / 16 = 1*/
+    line-height: 1.25em; /* 20/16=1 */
+    padding-bottom: 2em;
+  }
+
+  body{
+      margin-left: 150px;
+      margin-right: 150px;
+      max-width: 1500px;
+  }
 /* navigation bar */
 
 nav{
@@ -92,10 +118,45 @@ nav{
     font-size: 80%;
 }
 
-/* video */
-.video__background{
-    background-image: url("skyline.jpg");
-    background-size: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
+/* dropdown menu */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 125px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+      display: flex;
+    }
+  .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
